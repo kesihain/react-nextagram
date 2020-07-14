@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import {Card, CardBody,CardImg,CardTitle,CardSubtitle,CardText,Button } from "reactstrap";
 import UserImages from "../containers/UserImages";
 function Homepage({users}) {
