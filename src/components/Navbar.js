@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import {Navbar as NavBar, NavLink,NavbarBrand,NavItem,Button,Modal,ModalHeader} from 'reactstrap';
-import {Link, useHistory} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import LoginForm from './LoginForm';
 import SignupForm from './SignupForm';
 const Navbar = ({loggedIn,setLoggedIn})=> {
@@ -12,7 +12,6 @@ const Navbar = ({loggedIn,setLoggedIn})=> {
             return <SignupForm setIsLogin={setIsLogin} toggleModal={toggleModal}></SignupForm>
         }
     }
-    let history = useHistory();
     const handleLogout=()=>{
         localStorage.removeItem('jwt');
         window.location.assign("/")

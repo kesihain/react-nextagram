@@ -6,7 +6,7 @@ function MyProfile(props) {
 //   const [images,setImages] = useState([])
   useEffect(() => {
     axios({
-        method: 'get',
+        method: 'GET',
         url: 'https://insta.nextacademy.com/api/v1/images/me',
         headers:{
             Authorization:`Bearer ${localStorage.getItem('jwt')}`
