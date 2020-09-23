@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-nextagram
+This is an instagram copycat built with react
+
+## User stories
+1. User can sign up and sign in
+2. User can add profile picture
+3. User can add pictures
+4. User can view other users profile
+5. User can post comment on picture
+6. User can like picture
+7. User can follow user
+
+## How to run ?
+1. Download zip or clone repo
+2. Ensure you are in the top level folder
+3. run 
+'''
+npm start
+'''
 
 ## Available Scripts
 
