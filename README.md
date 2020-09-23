@@ -14,9 +14,9 @@ This is an instagram copycat built with react
 1. Download zip or clone repo
 2. Ensure you are in the top level folder
 3. run 
-'''
+```
 npm start
-'''
+```
 
 ## Available Scripts
 
